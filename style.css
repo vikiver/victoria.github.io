@@ -1,0 +1,343 @@
+body{
+    background-color: #b1b1b1;
+}
+
+header{
+    background-color: #808080;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.vse{
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.header_li{
+    display: inline;
+}
+
+#abbc{
+    font-size: 28px;
+}
+
+#news{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 24px;
+}
+
+#as{
+    padding-right: 3%;
+    font-size: 24px;
+}
+
+#ap{
+    padding-right: 14%;
+    font-size: 24px;
+}
+
+#vhod{
+    padding-right: 2%;
+    font-size: 24px;
+}
+
+#reg{
+    font-size: 24px;
+    padding-right: 2%;
+}
+
+@keyframes go-left-right {   
+    from { left: 0px; }            
+    to { left: calc(100% - 100px); } 
+  }
+
+  .progressa {
+    animation: go-left-right 60s infinite alternate;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 30px;
+    background: rgb(114, 114, 114);
+  }
+
+.algoritm{
+    font-size: 20px;
+    background-color: #b1b1b1;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+.alg{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.alg_ol{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+}
+
+.cdo{
+    margin-top: 0px;
+    background-color: #b1b1b1;
+    padding-top: 20px;
+}
+
+.cel{
+    padding-left: 30px;
+}
+
+.chel{
+    font-size: 18px;
+}
+
+.diviz{
+    padding-left: 30px;
+}
+
+.div{
+    font-size: 18px;
+}
+
+.otziv{
+    background-color: #b1b1b1;
+}
+
+.h3otz{
+    font-size: 22px;
+    text-align: center;
+    background-color: #b1b1b1;
+    margin-bottom: 0px;
+}
+
+.o1{
+    width: 10%;
+    margin-left: 15%;
+    float: left;
+    background-color: #ffffff;
+}
+
+.o2{
+    width: 10%;
+    margin-left: 23%;
+    float: left; 
+    background-color: #ffffff;
+}
+
+.o3{
+    width: 10%;
+    margin-left: 23%;
+    float: left;
+    background-color: #ffffff;
+}
+
+#otz{
+    display: inline;
+}
+
+.vkt{
+    background-color: #b1b1b1;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.action{
+    margin-left: 40px;
+    font-size: 28px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info__goal, .info__dev {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.review {
+    flex-basis: 30%;
+    background: rgb(142, 218, 182);
+    margin-right: 10px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#r1{
+   width: 600px;
+    height: 200px;
+    background-image: url(image/Creta.jpg);
+    background-size: 590px 240px;
+}
+
+#r2{
+    background-image: url(image/Coolray.jpeg);
+    background-size: 590px 240px;
+}
+
+#r3{
+    background-image: url(image/cx5.jpg);
+    background-size: 590px 240px;
+}
+
+#rn1{
+    color: #ffffff;
+}
+
+#rn2{
+    color: #000000;
+    margin-left: 300px;
+    font-weight: bolder;
+}
+
+#rn3{
+    color: rgb(0, 0, 0);
+    margin-left: 400px;
+    font-weight: bold;
+}
+
+.podpiska{
+    padding-left:5%;
+}
+
+.emailpodp{
+    margin-left: 50px;
+}
+
+.pnza{
+    font-size: 28px;
+}
+
+.vozvrat{
+    padding-left: 80px;
+}
+
+.fvt{
+    font-size: 24px;
+}
+
+.firstnamef{
+    margin-left: 50px;
+}
+
+.lastnamef{
+    margin-left: 50px;
+}
+
+.emailf{
+    margin-left: 50px;
+}
+
+.telf{
+    margin-left: 50px;
+}
+
+.datetimef{
+    margin-left: 50px;
+}
+
+.vashpol{
+    margin-left: 50px;
+}
+
+.manf{
+    margin-left: 70px;
+}
+
+.womanf{
+    margin-left: 70px;
+}
+
+.fos{
+    font-size: 24px;
+}
+
+.formaobrsv{
+    padding-left: 80px;
+}
+
+.firstnameos{
+    margin-left: 50px;
+}
+
+.lastnameos{
+    margin-left: 50px;
+}
+
+.emailos{
+    margin-left: 50px;
+}
+
+.telos{
+    margin-left: 50px;
+}
+
+.vpol{
+    margin-left: 50px;
+}
+
+.manos{
+    margin-left: 100px;
+}
+
+.womanos{
+    margin-left: 100px;
+}
+
+footer{
+    background-color: rgb(48, 46, 46);
+    font-size: 16px;
+    color: #ffffff;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.order{
+    margin-top: 20%;
+    text-align: center;
+}
+
+#firstnameord{
+    width: 250px;
+}
+
+#lastnameord{
+    width: 220px;
+}
+
+#mailord{
+    width: 240px;
+}
+
+#iphoneord{
+    width: 230px;
+}
+
+#passwordord{
+    width: 240px;
+}

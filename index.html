@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Авто-blogging</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul class="header_menu">
+            <a href="#">  <li class="header_li" id="header_logo"><img src="image/logo.jpg" alt="" width="80px"></li>
+            <a href="#"><li class="header_li" id="abbc">Авто-blogging (BLOG CAR)</li></a>
+            <a href="#"><li class="header_li" id="news">Новости </li></a>
+            <a href="#"><li class="header_li" id="as">Авто-статьи</li></a>
+            <a href="#"><li class="header_li" id="ap">Авто-премиум</li></a>
+            <a href="#"><li class="header_li" id="vhod">Войти </li></a>
+            <a href="order.html"><li class="header_li" id="reg">Регистрация</li></a>
+            <li class="header_li" id="poisk"><input name="s" placeholder="Искать здесь..." type="search">
+                <button type="submit" id="buttonm">Поиск</button></li>
+        </ul>
+    </header>
+
+    
+
+<div class="vse">
+    
+
+    <div class="algoritm">
+        <p class="alg"><b>Алгоритм заказа</b></p>
+        <ol class="alg_ol">
+            <li>Обработка заказа</li>
+            <li>Подтверждаем заказ</li>
+            <li>Подтверждаем оплату</li>
+            <li>Привоз авто в автосалон</li>
+            <li>Клиент получает автомобиль</li>
+        </ol>
+    </div>
+
+    <div class="cdo">
+        <div class="cel">
+            <h3>Цель:</h3>
+            <p class="chel">Как можно больше донести информацию до читателя</p>
+        </div>
+
+        <div class="diviz">
+            <h3>Дивиз:</h3>
+            <p class="div">Авто-blogging лучше всех, Авто-blogging ваш успех</p>
+        </div>
+
+        <div class="otziv">
+            <h3 class="h3otz">Отзывы</h3>
+            <div class="o1" id="otz">
+                <h4>Дмитрий</h4>
+                <p>Отлицный блог</p>
+            </div>
+            <div class="o2" id="otz">
+                <h4>Виктория</h4>
+                <p>Хороший сайт</p>
+            </div>
+            <div class="o3" id="otz">
+                <h4>Сергей</h4>
+                <p>Блог просто супер</p>
+            </div><br>
+        </div><br>
+    </div><br>
+
+
+    <div class="vkt"><br><br><br>
+        Выбор категории товара:
+<select size="1"> 
+<option selected value="1">Недорогие авто</option> 
+<option value="2">Авто среднего ценового сигмента</option> 
+<option value="3">Авто-премиум</option> 
+</select>
+<input type="submit" value="Поиск"> 
+    </div><br><br>
+
+<div class="progressa">Акции</div>
+<br>
+    <div class="action">
+        <section class="info">
+            <h2 class="info__dev">До конца месяца</h2>
+
+            <div class="review" id="r1">
+                <span class="review__name" id="rn1">Hyundai Creta</span>
+                <p class="review__text1"></p>
+            </div>
+
+            <div class="review" id="r2">
+                <span class="review__name" id="rn2">Geely Coolray</span>
+                <p class="review__text2"></p>
+            </div>
+
+            <div class="review" id="r3">
+                <span class="review__name" id="rn3">mazda cx5</span>
+                <p class="review__text3"></p>
+            </div>
+
+        </section><br>
+    </div>
+
+    <div class="podpiska">
+        <p class="pnza">Подписка на закрытые акции:</p>
+        <label for="email" class="emailpodp">E-mail: </label>
+        <input type="text" id="emailp">
+        <input type="submit" value="Подписаться">
+    </div><br><br><br><br><br>
+
+    <div class="vozvrat"><p class="fvt">Форма возврата:</p>
+        <form action="url" method="post">
+            <label for="firstname" class="firstnamef">Имя: </label>
+            <input type="text" id="firstname"><br><br>
+            <label for="lastname" class="lastnamef">Фамилия: </label>
+            <input type="text" id="lastname"><br><br>
+            <label for="email" class="emailf">E-mail: </label>
+            <input type="text" id="email"><br><br>
+            <label for="tel" class="telf">Номер телефона: </label>
+            <input type="number" id="tel"><br><br>
+            <label for="datetime" class="datetimef">Дата и время: </label>
+            <input type="datetime" id="datetime"><br>
+            <p class="vashpol">Ваш пол:</p>
+            <input type="radio" name="sex" value="мужской" class="manf"> Мужской<br>
+            <input type="radio" name="sex" value="женский" class="womanf"> Женский <br>
+            <br>
+            <h3> Введите причину возврата: <br>
+                <textarea name="ключевое слово" rows="5" cols="30">
+                </textarea><br></h3>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Сбросить">
+        </form> 
+    </div><br><br><br>
+
+    <div class="formaobrsv"><p class="fos">Форма обратной связи:</p>
+        <form action="url" method="post">
+            <label for="firstname" class="firstnameos">Имя: </label>
+            <input type="text" id="firstname"><br><br>
+            <label for="lastname" class="lastnameos">Фамилия: </label>
+            <input type="text" id="lastname"><br><br>
+            <label for="email" class="emailos">E-mail: </label>
+            <input type="text" id="email"><br><br>
+            <label for="tel" class="telos">Номер телефона: </label>
+            <input type="number" id="tel"><br>
+            <p class="vpol">Ваш пол:</p>
+            <input type="radio" name="sex" value="мужской" class="manos"> Мужской<br>
+            <input type="radio" name="sex" value="женский" class="womanos"> Женский <br>
+            <br>
+
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Сбросить">
+        </form> 
+    </div><br><br><br>
+
+    <footer>
+        <p class="t">Телефон: +7(985)567-67-76</p>
+        <p class="e">E-mail: auto-blogging@gmail.com</p>
+        <p class="a">Адрес: г. Москва ул. Крылова д. 8</p>
+    </footer>
+
+</div>
+</body>
+</html>
